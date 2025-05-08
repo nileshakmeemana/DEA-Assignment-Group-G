@@ -3,13 +3,13 @@
 Group Members
 
 Name                    Responsibilities
-NN Akmeemana            Creating Project Structure and 
+NN Akmeemana            Creating Project Structure and Front-end & Back-end
 SKSN Dayarathna         Database Design
 SA Gunarathna           
-GMA Hansamalee
-AMDT Jayasekara
+GMA Hansamalee          Front-end and Creating Project Report
+AMDT Jayasekara         Back-end & Debugging and Find Errors, and Resolve Them
 IDJA Kumara
-DAOY Peiris
+DAOY Peiris             Front-end and Creating Project Report
 MJD Priyashan
-MWVL Rupasingha         
+MWVL Rupasingha         Back-end & Debugging and Find Errors and Resolve Them
 MJPS Sanduwinna         Ui Design
