@@ -1,1 +1,1 @@
-# DEA-Assignment-Group-G
+# DEA-Assignment-Group-G - Student Management Sysytem
