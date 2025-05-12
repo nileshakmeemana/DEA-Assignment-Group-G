@@ -37,7 +37,16 @@ NN Akmeemana            Creating Project Structure and Front-end & Back-end & De
 
 
 SKSN Dayarathna         Database Design & Front-end
-SA Gunarathna           Front-end
+                              • JSPs
+
+                                admin/                                
+                                •	edit-student.jsp
+                                •	edit-teacher.jsp
+                                •	edit-course.jsp
+                                •	assign-teacher.jsp
+                                (4 files)
+
+SA Gunarathna           Debugging and Find Errors, and Resolve Them
 GMA Hansamalee          Front-end and Creating Project Report
 
                               • JSPs
@@ -55,22 +64,18 @@ AMDT Jayasekara         Front-end & Debugging and Find Errors, and Resolve Them
                                 •	dashboard.jsp
                                 •	manage-students.jsp
                                 •	manage-teachers.jsp
-                                •	manage-courses.jsp
-                                •	edit-student.jsp
-                                •	edit-teacher.jsp
-                                •	edit-course.jsp
-                                •	assign-teacher.jsp
-                                (8 files)
+                                •	manage-courses.jsp                               
+                                (4 files)
 
 
 IDJA Kumara             Backend-end
 
                               •	Java files (model, dao, controller, util)
                                 com.sms.dao
-                                •	TeacherDao.java
-                                •	CourseDao.java
-                                •	AttendanceDao.java
-                                •	GradeDao.java
+                                •	TeacherDao.java - insertTeacher, getTeacherByid, getTeacherByUserId, getAllTeachers, updateTeacher, deleteTeacher, getTeacherCourses
+                                •	CourseDao.java - insertCourse, getCourseById, getAllCourses, getCoursesByTeacherId, getCoursesByStudentId, updateCourse, deleteCourse, getStudentCountForCourse
+                                •	AttendanceDao.java - insertAttendance, getAttendanceById, getAttendanceByStudentCourseDate, getAttendanceByStudentId, getAttendanceByCourseId, getAttendanceByStudentAndCourse,                                         getAttendanceByDateAndCourse, updateAttendance, deleteAttendance, getAttendancePercentage
+                                •	GradeDao.java - insertGrade, getGradeByStudentAndCourse, getGradesByStudentId, getGradesByCourseId, updateGrade, deleteGrade
                                 (4 files)
 
 DAOY Peiris             Front-end and Creating Project Report
@@ -95,9 +100,9 @@ MJD Priyashan           Front-end
 MWVL Rupasingha         Back-end & Debugging and Find Errors and Resolve Them
                               •	Java files (model, dao, controller, util)
                                 com.sms.dao
-                                •	DatabaseConnection.java
-                                •	UserDao.java
-                                •	StudentDao.java                     
+                                •	DatabaseConnection.java - database.properties file
+                                •	UserDao.java - insertUser, validateUser, usernameExists, emailExists, getUserById, getAllUsers, updateUser, updatePassword, deleteUser
+                                •	StudentDao.java - insertStudent, getStudentById, getStudentByUserId, getStudentsByCourseId, getAllStudents, updateStudent, deleteStudent, enrollStudentInCourse,                                                       getStudentCourses, removeStudentFromCourse                     
                                 (3 files)
 
 
