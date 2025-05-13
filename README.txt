@@ -72,10 +72,15 @@ IDJA Kumara             Backend-end
 
                               •	Java files (model, dao, controller, util)
                                 com.sms.dao
-                                	TeacherDao.java - insertTeacher, getTeacherByid, getTeacherByUserId, getAllTeachers, updateTeacher, deleteTeacher, getTeacherCourses
-                                	CourseDao.java - insertCourse, getCourseById, getAllCourses, getCoursesByTeacherId, getCoursesByStudentId, updateCourse, deleteCourse, getStudentCountForCourse
-                                	AttendanceDao.java - insertAttendance, getAttendanceById, getAttendanceByStudentCourseDate, getAttendanceByStudentId, getAttendanceByCourseId, getAttendanceByStudentAndCourse,                                         getAttendanceByDateAndCourse, updateAttendance, deleteAttendance, getAttendancePercentage
-                                	GradeDao.java - insertGrade, getGradeByStudentAndCourse, getGradesByStudentId, getGradesByCourseId, updateGrade, deleteGrade
+                                	TeacherDao.java - insertTeacher, getTeacherByid, getTeacherByUserId, getAllTeachers,
+                                                    updateTeacher, deleteTeacher, getTeacherCourses
+                                	CourseDao.java - insertCourse, getCourseById, getAllCourses, getCoursesByTeacherId,
+                                                    getCoursesByStudentId, updateCourse, deleteCourse, getStudentCountForCourse
+                                	AttendanceDao.java - insertAttendance, getAttendanceById, getAttendanceByStudentCourseDate,
+                                                        getAttendanceByStudentId, getAttendanceByCourseId, getAttendanceByStudentAndCourse,
+                                                        getAttendanceByDateAndCourse, updateAttendance, deleteAttendance, getAttendancePercentage
+                                	GradeDao.java - insertGrade, getGradeByStudentAndCourse, getGradesByStudentId, getGradesByCourseId,
+                                                  updateGrade, deleteGrade
                                 (4 files)
 
 DAOY Peiris             Front-end and Creating Project Report
