@@ -75,12 +75,15 @@ IDJA Kumara             Backend-end
                                 	TeacherDao.java - insertTeacher, getTeacherByid, getTeacherByUserId, getAllTeachers,
                                                     updateTeacher, deleteTeacher, getTeacherCourses
                                 	CourseDao.java - insertCourse, getCourseById, getAllCourses, getCoursesByTeacherId,
-                                                    getCoursesByStudentId, updateCourse, deleteCourse, getStudentCountForCourse
+                                                    getCoursesByStudentId, updateCourse, deleteCourse,
+                                                    getStudentCountForCourse
                                 	AttendanceDao.java - insertAttendance, getAttendanceById, getAttendanceByStudentCourseDate,
-                                                        getAttendanceByStudentId, getAttendanceByCourseId, getAttendanceByStudentAndCourse,
-                                                        getAttendanceByDateAndCourse, updateAttendance, deleteAttendance, getAttendancePercentage
-                                	GradeDao.java - insertGrade, getGradeByStudentAndCourse, getGradesByStudentId, getGradesByCourseId,
-                                                  updateGrade, deleteGrade
+                                                        getAttendanceByStudentId, getAttendanceByCourseId,
+                                                        getAttendanceByStudentAndCourse,
+                                                        getAttendanceByDateAndCourse, updateAttendance, deleteAttendance,
+                                                        getAttendancePercentage
+                                	GradeDao.java - insertGrade, getGradeByStudentAndCourse, getGradesByStudentId,
+                                                  getGradesByCourseId, updateGrade, deleteGrade
                                 (4 files)
 
 DAOY Peiris             Front-end and Creating Project Report
@@ -106,8 +109,11 @@ MWVL Rupasingha         Back-end & Debugging and Find Errors and Resolve Them
                               •	Java files (model, dao, controller, util)
                                 com.sms.dao
                                 	DatabaseConnection.java - database.properties file
-                                	UserDao.java - insertUser, validateUser, usernameExists, emailExists, getUserById, getAllUsers, updateUser, updatePassword, deleteUser
-                                	StudentDao.java - insertStudent, getStudentById, getStudentByUserId, getStudentsByCourseId, getAllStudents, updateStudent, deleteStudent, enrollStudentInCourse,                                                       getStudentCourses, removeStudentFromCourse                     
+                                	UserDao.java - insertUser, validateUser, usernameExists, emailExists, getUserById,
+                                                 getAllUsers, updateUser, updatePassword, deleteUser
+                                	StudentDao.java - insertStudent, getStudentById, getStudentByUserId,
+                                                    getStudentsByCourseId, getAllStudents, updateStudent, deleteStudent,
+                                                    enrollStudentInCourse, getStudentCourses, removeStudentFromCourse                     
                                 (3 files)
 
 
