@@ -15,7 +15,6 @@
             </div>
             <div class="hidden md:block">
                 <div class="flex items-center space-x-4">
-                    <a href="${pageContext.request.contextPath}/" class="text-white hover:bg-indigo-700 px-3 py-2 rounded-md text-sm font-medium">Home</a>
                     
                     <c:if test="${not empty sessionScope.user}">
                         <c:choose>

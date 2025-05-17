@@ -176,9 +176,9 @@ public class AdminServlet extends HttpServlet {
         
         // Create some sample recent activities
         List<String> recentActivities = new ArrayList<>();
-        recentActivities.add("New student registered: John Doe");
-        recentActivities.add("Course CS101 updated by admin");
-        recentActivities.add("Teacher Jane Smith assigned to Math202");
+        recentActivities.add("Add new students, teachers and courses.");
+        recentActivities.add("Edit students, teachers and courses.");
+        recentActivities.add("Assign teachers for new courses");
         
         request.setAttribute("recentActivities", recentActivities);
         

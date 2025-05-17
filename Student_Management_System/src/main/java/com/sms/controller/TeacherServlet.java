@@ -164,8 +164,8 @@ public class TeacherServlet extends HttpServlet {
             
             // Create some sample recent activities
             List<String> recentActivities = new ArrayList<>();
-            recentActivities.add("Updated grades for CS101");
-            recentActivities.add("Took attendance for Math202");
+            recentActivities.add("Review recent grade updates.");
+            recentActivities.add("Check recent attendance records.");
             
             request.setAttribute("teacher", teacher);
             request.setAttribute("user", user);

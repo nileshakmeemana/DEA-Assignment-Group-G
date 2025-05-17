@@ -30,6 +30,16 @@
                         create a new account
                     </a>
                 </p>
+                <p class="mt-2 text-center text-sm text-gray-600">
+                    Admin - Username: admin | Password: 123
+                </p>
+                <p class="mt-2 text-center text-sm text-gray-600">
+                    Teacher - Username: teacher | Password: 123
+                </p>
+                <p class="mt-2 text-center text-sm text-gray-600">
+                    Student - Username: nilesh | Password: 32915NNAmcc
+                    
+                </p>
             </div>
 
             <c:if test="${not empty errorMessage}">

@@ -118,7 +118,7 @@
                 <!-- Recent Activities Card -->
                 <div class="bg-white shadow rounded-lg">
                     <div class="px-4 py-5 sm:px-6 border-b border-gray-200">
-                        <h3 class="text-lg leading-6 font-medium text-gray-900">Recent Activities</h3>
+                        <h3 class="text-lg leading-6 font-medium text-gray-900">Notices for Teacher</h3>
                     </div>
                     <div class="px-4 py-5 sm:p-6">
                         <c:if test="${not empty recentActivities}">

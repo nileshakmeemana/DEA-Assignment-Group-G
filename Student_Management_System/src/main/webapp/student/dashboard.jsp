@@ -154,7 +154,7 @@
                 
                 <div class="bg-white shadow-lg rounded-lg overflow-hidden">
                     <div class="px-4 py-5 sm:px-6 border-b border-gray-200">
-                        <h5 class="text-lg font-medium text-gray-900">Upcoming Deadlines</h5>
+                        <h5 class="text-lg font-medium text-gray-900">Notices for Student</h5>
                     </div>
                     <div class="p-6">
                         <c:if test="${not empty deadlines}">
@@ -163,13 +163,12 @@
                                     <div class="bg-white rounded-lg border border-gray-200 p-4">
                                         <h6 class="text-sm font-medium text-gray-900 mb-1">${deadline.title}</h6>
                                         <p class="text-sm text-gray-600 mb-2">${deadline.description}</p>
-                                        <p class="text-xs text-gray-500">Due: ${deadline.dueDate}</p>
                                     </div>
                                 </c:forEach>
                             </div>
                         </c:if>
                         <c:if test="${empty deadlines}">
-                            <p class="text-sm text-gray-600">No upcoming deadlines.</p>
+                            <p class="text-sm text-gray-600">No Notices for Students.</p>
                         </c:if>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 <%-- 
     Document   : index
-    Created on : May 10, 2025, 1:32:31 PM
+    Created on : May 10, 2025, 1:32:31 PM
     Author     : Nilesh
 --%>
 
@@ -46,12 +46,13 @@
                     </div>
                 </main>
             </div>
-            <!-- Hero Image -->
-            <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 flex items-center justify-center">
-                <img class="h-96 w-96 object-cover rounded-2xl shadow-lg" 
-                     src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
-                     alt="University campus">
-            </div>
+        </div>
+        <!-- University Image Section -->
+        <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+            <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" 
+                 src="/api/placeholder/800/600" 
+                 alt="University campus" 
+                 onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1366&q=80';">
         </div>
     </div>
 
@@ -152,4 +153,3 @@
     <jsp:include page="includes/footer.jsp" />
 </body>
 </html>
-

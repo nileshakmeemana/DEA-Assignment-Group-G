@@ -211,15 +211,13 @@ public class StudentServlet extends HttpServlet {
             // Get upcoming deadlines (sample data)
             List<Map<String, String>> deadlines = new ArrayList<>();
             Map<String, String> deadline1 = new HashMap<>();
-            deadline1.put("title", "Assignment 1");
-            deadline1.put("description", "Complete the first programming assignment");
-            deadline1.put("dueDate", "2025-05-15");
+            deadline1.put("title", "Course Selection");
+            deadline1.put("description", "Check available courses for enrollment.");
             deadlines.add(deadline1);
             
             Map<String, String> deadline2 = new HashMap<>();
-            deadline2.put("title", "Midterm Exam");
-            deadline2.put("description", "Prepare for the midterm examination");
-            deadline2.put("dueDate", "2025-05-20");
+            deadline2.put("title", "Attendance Records");
+            deadline2.put("description", "Review your attendance records.");
             deadlines.add(deadline2);
             
             request.setAttribute("student", student);
