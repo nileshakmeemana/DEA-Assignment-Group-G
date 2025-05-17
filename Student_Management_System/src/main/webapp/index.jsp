@@ -46,6 +46,12 @@
                     </div>
                 </main>
             </div>
+            <!-- Hero Image -->
+            <div class="hidden lg:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 flex items-center justify-center">
+                <img class="h-96 w-96 object-cover rounded-2xl shadow-lg" 
+                     src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                     alt="University campus">
+            </div>
         </div>
     </div>
 
