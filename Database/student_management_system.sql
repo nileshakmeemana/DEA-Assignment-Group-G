@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 11, 2025 at 07:16 AM
+-- Generation Time: May 17, 2025 at 09:45 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -64,8 +64,7 @@ CREATE TABLE `courses` (
 --
 
 INSERT INTO `courses` (`id`, `code`, `name`, `description`, `credit_hours`, `teacher_id`) VALUES
-(1, 'MA 102.3', 'Mathematics for Computing', '123', 4, 1),
-(2, 'SE 101.4', 'System Analysis Design', 'SAD', 4, 1);
+(1, 'SE204.3', 'Development of Enterprise Applications I', 'DEA - 1', 4, 1);
 
 -- --------------------------------------------------------
 
@@ -89,8 +88,7 @@ CREATE TABLE `grades` (
 --
 
 INSERT INTO `grades` (`id`, `student_id`, `course_id`, `assignment_score`, `midterm_score`, `final_score`, `total_score`, `grade`) VALUES
-(1, 1, 1, 90.00, 90.00, 90.00, 90.00, 'A'),
-(2, 1, 2, 81.00, 90.00, 78.00, 82.50, 'B');
+(1, 1, 1, 90.00, 90.00, 90.00, 90.00, 'A');
 
 -- --------------------------------------------------------
 
@@ -115,7 +113,7 @@ CREATE TABLE `students` (
 --
 
 INSERT INTO `students` (`id`, `user_id`, `first_name`, `last_name`, `dob`, `gender`, `address`, `phone`, `enrollment_date`) VALUES
-(1, 2, 'nilesh', 'Akmeemana', '2003-01-24', 'Male', 'Colombo', '0787223917', '2025-05-04');
+(1, 2, 'Nilesh', 'Akmeemana', '2003-01-24', 'Male', 'Colombo', '0787223917', '2025-05-04');
 
 -- --------------------------------------------------------
 
@@ -135,7 +133,6 @@ CREATE TABLE `student_courses` (
 --
 
 INSERT INTO `student_courses` (`id`, `student_id`, `course_id`, `enrollment_date`) VALUES
-(3, 1, 2, '2025-05-08'),
 (4, 1, 1, '2025-05-09');
 
 -- --------------------------------------------------------
@@ -162,7 +159,7 @@ CREATE TABLE `teachers` (
 --
 
 INSERT INTO `teachers` (`id`, `user_id`, `first_name`, `last_name`, `dob`, `gender`, `address`, `phone`, `hire_date`, `qualification`) VALUES
-(1, 4, 'nilesh', 'Akmeemana', NULL, 'Male', 'Colombo', '0787223917', '2025-05-04', 'MBBS');
+(1, 4, 'Chaminda', ' Wijesinghe', NULL, 'Male', 'Colombo', '0787223917', '2025-05-04', 'Master of Science in Computer Science');
 
 -- --------------------------------------------------------
 
@@ -254,7 +251,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `attendance`
 --
 ALTER TABLE `attendance`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `courses`

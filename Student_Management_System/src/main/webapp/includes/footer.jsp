@@ -11,7 +11,7 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
                 <h5 class="text-lg font-semibold mb-4">Student Management System</h5>
-                <p class="text-gray-300">A comprehensive system for managing student records, courses, grades, and attendance.</p>
+                <p class="text-gray-300">A central platform for efficient management of student data, courses, grades, and attendance, optimizing administrative workflows.</p>
             </div>
             <div>
                 <h5 class="text-lg font-semibold mb-4">Quick Links</h5>
